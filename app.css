@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family: "flood-std";
+    src: url("fonts/FloodStd.otf");
+    }
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.container {
+    margin: 0 10% 0 10%;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.title{
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+.nav{
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    font-size: 1.1vw;
+    width:auto;
+    height: auto;
+    align-content: center;
+}
+.donate-today{
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button{
+   
+    background: #C1F7D5;
+    border-radius: 1em;
+    width: auto;
+    height: auto;
+    font-size: 1.1vw;
+    padding: .5vw;
+    
+}
+.slider {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat; 
+    background-size: 100%  auto;
+    width: 100%;
+    height: auto;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.slider-text-box1 {
+    width: 35%;
+    background-color: white;
+    padding: 2vw 4vw;
+}
+.slider-text-box1-heading{
+    position: relative;
+    top: -3vw;
+    width: 40%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.slider-text-box1 > h1 {
+    font-size: 2vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 2em;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.slider-text-box1 > a{
+    color: black;
+    font-size: 1.1vw;
+    float: left;
+    margin-top: 3vw;
+}
+.slider-text-box2{
+    
+    font-family: flood-std, sans-serif;
+    color: white;
+    font-size: 4vw;
+    width: 35%;
+    margin-left: 4rem;
+}
+.take-action {
+    width: 100%;
+    height: auto;
+    background-color: #C1F7D5;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.take-action-heading{
+    position: relative;
+    top:-2vw;
+    left:43%;
+    background-color: black;
+    color:white;
+    padding: 1vw;
+
+}
+.take-action-objective{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.take-action-item-heading{
+    font-weight: bold;
+    font-size: 2vw;
+}
+.take-action-objective-itmes
+{
+    width:20%;
+    font-size:1vw; 
+}
+.mission {
+    background-color: #354463;
+    width: 100%;
+    height: auto;
+    padding-top:5vw;
+    padding-bottom: 5vw;
+}
+.mission-heading{
+    background-color:white;
+    padding:1vw;
+    font-size: 1vw;  
+}
+.mission-description{
+    width: 100%;
+    margin-top: 1vw;
+    color:white;
+    font-size: 3.1vw;
+}
+.mission-description-cards{
+    margin-top: 8vw;
+
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 27%;
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+     position: relative;
+}
+.card > img{
+    width: 100%;
+    height: 40%;
+    margin-left: 2vw;
+    margin-top: -2vw;
+}
+.card-heading{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+    
+}
+.card-text {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        width: 40%;
+        font-size: 2.5vw;
+        
+    }
+    .nav{
+        margin-left: 0%;
+        width:80%;
+        order:1;
+    }
+    .nav-items{
+        font-size: 2vw;
+    }
+    .donate-today{
+        width:60%;
+    }
+    .button{
+        font-size:2vw;
+    }
+    .slider {
+        background-image: url("images/tabbg.png");
+    }
+    .slider-text-box2{
+        order: -1;
+        margin-left: 0;
+        text-align: left;
+        margin-bottom: 4vw;
+        font-size: 7vw;
+    }
+    .slider-text-box1{
+        width: auto;
+    }
+    .slider-text-box1-heading{
+        font-size:2.5vw;
+    }
+    .slider-text-box1 > h1 {
+        font-size: 4vw;       
+    }
+    .slider-text-box1 > a {
+        font-size: 2vw;       
+    }
+    .take-action-item-heading{
+        font-weight: bold;
+    }
+    .take-action-objective-itmes
+    {
+        width:40%;
+        font-size:1.5vw; 
+    }
+    .take-action-heading{
+        font-size: 1.5vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 480px) {
+      .title{
+          width: 75%;
+          font-size: 5vw;
+      }
+      .nav{
+        order: 0;
+        width: 25%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: baseline;
+      }
+      .nav-items{
+          font-size: 3vw;
+      }
+      .button{
+          font-size: 3vw;
+          width: 70%;
+          text-align: center;
+      }
+
+      .donate-today{
+        order: 0;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+      }
+      .slider-text-box2{
+        order: -1;
+        margin-left: 0;
+        text-align: left;
+        margin-bottom: 4vw;
+        font-size: 8vw;
+    }
+    .slider-text-box1{
+        width: auto;
+    }
+    .slider-text-box1-heading{
+        font-size:4vw;
+    }
+    .slider-text-box1 > h1 {
+        font-size: 4vw; 
+        margin-inline-end: 0;      
+    }
+    .slider-text-box1 > a {
+        font-size: 3vw;       
+    }
+    .take-action-item-heading{
+        font-weight: bold;
+        font-size:2vw;
+    }
+    .take-action-objective-itmes
+    {
+        width:40%;
+        font-size:1.8vw; 
+    }
+  }
