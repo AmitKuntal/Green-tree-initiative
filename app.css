@@ -262,32 +262,43 @@ header{
     }
     .card {
         width: 100%;
-        padding-bottom: 1vw;
+        height: 32vw;
         display: flex;
-        flex-flow: row wrap;
-        margin-bottom: 2vw;
+        flex-flow: row-reverse wrap;
+        margin-bottom: 8vw;
+        position: relative;
     }
     .card-heading{
-        height: 30%;
+        font-size: 3vw;
+        padding: 1vw;
     }
     .card > img {
-        width: 40%;
-        height: 20vw;
-        margin-left: 2vw;
-        margin-top: -2vw;
+        width: 55%;
+        height: 26vw;
+        position: absolute;
+        top: -4vw;
+        left: 5vw;
     }
     .card-text {
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
         font-size: 1.3vw;
-        width: 40%;
+        width: 36%;
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
     }
     .card-paragraph{
-        font-size: 1.8vw;
+        font-size: 2vw;
+        padding: 2vw;
     }
     .read-more{
-        margin: 0;
-        padding: 0;    
+        position: relative;
+        align-self: flex-end;
+        bottom: 1vw;
+    }
+    .read-more > .button {
+        padding:2vw;
     }
     
   }
@@ -348,5 +359,28 @@ header{
     {
         width:40%;
         font-size:1.8vw; 
+    }
+    .mission > .container {
+        justify-content: center;
+    }
+    .card {
+        height: auto;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .card > img {
+        width: 62%;
+        height: 10vh;
+        position: relative;
+        margin: 0;
+        top: -6vw;
+        left: 0;
+    }
+    .card-text{
+        width: 60%;
+        }
+    .read-more{
+        width: 45%;
+    position: unset;
     }
   }
