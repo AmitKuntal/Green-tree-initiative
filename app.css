@@ -56,7 +56,7 @@ header{
     padding: .5vw;
     
 }
-.slider {
+.hero {
     background-image: url("images/background.png");
     background-repeat: no-repeat; 
     background-size: 100%  auto;
@@ -70,12 +70,12 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
 }
-.slider-text-box1 {
+.hero-issue {
     width: 35%;
     background-color: white;
     padding: 2vw 4vw;
 }
-.slider-text-box1-heading{
+.hero-issue-heading{
     position: relative;
     top: -3vw;
     width: 40%;
@@ -85,7 +85,7 @@ header{
     text-align: center;
     font-size: 1.5vw;
 }
-.slider-text-box1 > h1 {
+.hero-issue > h1 {
     font-size: 2.5vw;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -96,13 +96,13 @@ header{
     
 }
 
-.slider-text-box1 > a{
+.hero-issue > a{
     color: black;
     font-size: 1.1vw;
     float: left;
     margin-top: 3vw;
 }
-.slider-text-box2{
+.hero-slogan{
     
     font-family: flood-std, sans-serif;
     color: white;
@@ -214,7 +214,7 @@ header{
     padding-top:8vw;
     padding-bottom: 2vw;
 }
-.reports-tagline > .slider-text-box2{
+.reports-tagline > .hero-slogan{
     margin: 0;
     font-size: 5vw;
 }
@@ -303,26 +303,26 @@ header{
     .button{
         font-size:2vw;
     }
-    .slider {
+    .hero {
         background-image: url("images/tabbg.png");
     }
-    .slider-text-box2{
+    .hero-slogan{
         order: -1;
         margin-left: 0;
         text-align: left;
         margin-bottom: 4vw;
         font-size: 7vw;
     }
-    .slider-text-box1{
+    .hero-issue{
         width: auto;
     }
-    .slider-text-box1-heading{
+    .hero-issue-heading{
         font-size:2.5vw;
     }
-    .slider-text-box1 > h1 {
+    .hero-issue > h1 {
         font-size: 4vw;       
     }
-    .slider-text-box1 > a {
+    .hero-issue > a {
         font-size: 2vw;       
     }
     .take-action-item-heading{
@@ -419,24 +419,24 @@ header{
         margin: 0;
         justify-content: center;
       }
-      .slider-text-box2{
+      .hero-slogan{
         order: -1;
         margin-left: 0;
         text-align: left;
         margin-bottom: 4vw;
         font-size: 8vw;
     }
-    .slider-text-box1{
+    .hero-issue{
         width: auto;
     }
-    .slider-text-box1-heading{
+    .hero-issue-heading{
         font-size:4vw;
     }
-    .slider-text-box1 > h1 {
+    .hero-issue > h1 {
         font-size: 4vw; 
         margin-inline-end: 0;      
     }
-    .slider-text-box1 > a {
+    .hero-issue > a {
         font-size: 3vw;       
     }
     .take-action-item-heading{
@@ -487,7 +487,7 @@ header{
     .report-card-heading > p {
         font-size: 2.5vw;
     }
-    .reports-tagline > .slider-text-box2 {
+    .reports-tagline > .hero-slogan {
         width: 100%;
         font-size: 10vw;
     }
