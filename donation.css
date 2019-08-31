@@ -154,15 +154,51 @@ label{
     font-weight: bold;
     
 }
-
-
-
 .make-donation-tagline{
     width: 35%;
     height: auto;
     font-family:flood-std;
     font-size: 5vw;
     color: white;
+}
+footer{
+    width: 100%;
+    margin-bottom: 1vw;
+    padding-top: 2vw;
+}
+
+.footer-title{
+    width: 20%;
+    height: 100%;
+    font-size: 1.5vw;
+    text-align: left;
+}
+.nav{
+    
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.nav-items{
+    font-size: 1.1vw;
+    width:20%;
+    height: auto;
+    align-content: center;
+}
+.links{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-slogan{
+    width: 20%;
+    font-family:flood-std;
+    font-size: 3vw;
+    text-align: end;
+}
+hr{
+    width: 90%;
+    float: left;
 }
 @media screen and (max-width: 768px) {
     .title{
@@ -182,6 +218,27 @@ label{
     }
     label{
         font-size: 1.5vw;
+    }
+    .nav-items{
+        width: 34%;
+        height: 35%;
+        font-size: 2vw;
+    }
+    .footer-slogan{
+        width: 33%;
+        font-family: flood-std;
+        font-size: 7vw;
+        text-align: unset;
+    }
+    
+    .footer-title {
+        width: 29%;
+        height: 100%;
+        font-size: 3.2vw;
+        text-align: left;
+    }
+    footer > .container {
+        justify-content: flex-end;
     }
 }
 @media screen and (max-width: 480px){
@@ -213,6 +270,20 @@ label{
     }
     .back-link{
         font-size: 2vw;
+    }
+    .footer-title{
+        width: 50%;
+    }
+    footer > .container {
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .footer-slogan{
+        width: 51%;
+    font-family: flood-std;
+    font-size: 7vw;
+    text-align: right;
+    margin-left: auto;
     }
 
 }
