@@ -390,6 +390,9 @@ header{
     .read-more > .button {
         padding:2vw;
     }
+    .report-card{
+        height: 16vh;
+    }
     .report-card-heading > h1{
         font-size: 3vw;
     }
